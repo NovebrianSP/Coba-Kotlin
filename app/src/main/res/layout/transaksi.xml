@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewEnterAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Amount:"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEnterAmount"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter amount here" />
+
+    <TextView
+        android:id="@+id/textViewSelectType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Transaction Type:"
+        android:textSize="18sp"
+        android:layout_below="@id/editTextAmount"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTransactionType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSelectType"
+        android:layout_marginTop="10dp"
+        android:entries="@array/transaction_types" />
+
+    <!-- Button to save transaction -->
+    <Button
+        android:id="@+id/buttonSaveTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Transaction"
+        android:layout_below="@id/spinnerTransactionType"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

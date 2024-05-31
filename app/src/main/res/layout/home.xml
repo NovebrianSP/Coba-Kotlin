@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/cyantua">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/linear1">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/account"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow/>
+            <TableRow>
+                <TextView
+                    android:id="@+id/textWelcomeMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="Nama Akun"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/rect_putih"
+        android:layout_marginTop="235dp"/>
+
+    <!-- ImageButton #1 -->
+    <ImageButton
+        android:id="@+id/imageButtonCreateTransaction"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_transaction"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!-- TextView #1 -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buat Transaksi"
+        android:layout_below="@id/imageButtonCreateTransaction"
+        android:layout_marginStart="10dp"/>
+
+    <!-- ImageButton #2 -->
+    <ImageButton
+        android:id="@+id/imageButtonViewTransactions"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/transparent"
+        android:src="@drawable/list_transaksi"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!-- TextView #2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Transaksi"
+        android:layout_below="@id/imageButtonViewTransactions"
+        android:layout_marginStart="150dp"/>
+
+    <!-- ImageButton #3 -->
+    <ImageButton
+        android:id="@+id/imageButtonLogout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_logout"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <!-- TextView #3 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/imageButtonLogout"
+        android:layout_marginStart="300dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/transparent"
+        android:src="@drawable/edit_profile"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile Kamu"
+        android:layout_below="@id/imageButtonProfile"
+        android:layout_marginStart="5dp"/>
+
+
+</RelativeLayout>

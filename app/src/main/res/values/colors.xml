@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="id1">#98E4FF</color>
+    <color name="id2">#80B3FF</color>
+    <color name="id3">#687EFF</color>
+    <color name="id4">#02B0B9</color>
+    <color name="id5">#F4E869</color>
+    <color name="id6">#CD6506</color>
+    <color name="id7">#00E7E7</color>
+    <color name="cyanmuda">#C5FFFF</color>
+    <color name="cyantua">#00E7E7</color>
+    <color name="blue">#0074DE</color>
+    <color name="abu">#808080</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="red">#FF0000</color>
+</resources>
